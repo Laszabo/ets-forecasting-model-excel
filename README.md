@@ -92,6 +92,22 @@ I validated the ETS approach against real historical 2025 fee outcomes. As shown
 | 3-Year Rolling Avg        | -67.29%       |
 | Previous Year Copy        | -13.11%       |
 
+### 🧭 Identifying Legislative Outliers
+
+One of the unexpected benefits of this ETS-based model is its ability to **flag large deviations** between forecasted and actual values. In each case where significant differences were observed, the root cause turned out to be a **regulatory or legislative change** — such as:
+
+- Mid-year subsidy eliminations  
+- Changes in DSO cost structures  
+- Government-imposed tariff freezes or releases
+
+> ✅ This makes the tool not only a forecasting engine, but also a **diagnostic aid** for detecting anomalies worth investigating.
+
+#### Analyst Use Case:
+- If **ETS forecast vs actual** difference exceeds ~25–50%, it’s a strong signal that external (non-market) factors are in play.
+- The model can help **highlight fees needing manual review**, cross-check against policy changes, and improve communication with procurement or regulatory teams.
+
+This turns the model from a passive calculator into a **proactive decision-support tool**.
+
 ---
 
 ## 📁 Files Included
@@ -105,7 +121,6 @@ I validated the ETS approach against real historical 2025 fee outcomes. As shown
 
 ## 🚀 Future Enhancements
 
-- Add dropdown to switch between multiple fee series
 - Integrate confidence intervals around ETS forecasts
 - Automate chart generation from forecast output
 - Explore Python implementation with Prophet or statsmodels
@@ -114,6 +129,8 @@ I validated the ETS approach against real historical 2025 fee outcomes. As shown
 
 ## 📌 Attribution
 
-This project was built to improve internal decision-making around energy fee forecasting. While ETS is an existing Excel function, I structured and validated this model from scratch — including framework logic, business integration, and fallback rules — to improve planning accuracy and internal credibility.
+This project was built to improve internal decision-making around non-commodity energy fee forecasting. 
 
-> 📬 Reach out if you want to adapt this logic for other energy or regulated pricing domains.
+While ETS is an existing Excel function, I structured and validated this model from scratch — including framework logic, business integration, and fallback rules — to improve planning accuracy and internal credibility.
+
+> 📬 Reach out if you want to adapt this logic for your energy or other regulated pricing domains.
