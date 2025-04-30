@@ -73,9 +73,9 @@ The model includes built-in logic for selecting the final fee based on the expec
 | Uncertainty or Change Expected         | `=MAX(...)` of ETS, YoY, Avg       |
 | Certain Regulation + Manual Adjustment | Weighted version with override     |
 
-![Stable](media/Stable-Regulatory-Environment.png)
-![Uncertain](media/Uncertainty-or-Change-Expected.png)
-![Manual](media/Certain-Regulatory-Decision-Expected-with-Manual-Adjustment.png)
+![Stable](media/Stable Regulatory Environment.png)
+![Uncertain](media/Uncertainty or Change Expected.png)
+![Manual](media/Certain Regulatory Decision Expected with Manual Adjustment.png)
 
 ---
 
