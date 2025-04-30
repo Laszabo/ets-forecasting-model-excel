@@ -45,7 +45,7 @@ This model was designed to:
 ✅ Skips blanks/zeroes  
 ✅ Automatically adjusts with new monthly data  
 
-![ETS Formula in Excel](media/Formula-in-excel.png)
+![ETS Formula in Excel](media/Formula_in_excel.png)
 
 ---
 
